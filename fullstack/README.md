@@ -26,6 +26,6 @@ This challenge is designed to test your skill with:
     * Parsing @mentions in tweets and linking to the status pages for those
     * Pulling in user profile images
     * Using Javascript to show user information in a modal when clicked or hovered on
-1. Email a link to your working Heroku app and github repo with the code to `devs@stacksocial.com`
+
 
 Feedback is welcome if you found it too easy/hard/whatever.
