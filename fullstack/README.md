@@ -9,8 +9,6 @@ This challenge is designed to test your skill with:
 * Git
 * Deploying to the cloud
 
-**This should take you about 2.5 hours without all the bonus work.**
-
 1. Create a Rails app that, does the following:
     * Is hosted on [Heroku](http://heroku.com) (you should be able to use the free plan)
     * Requires an authenticated login to access
