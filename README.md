@@ -1,4 +1,2 @@
-StackSocial developer challenges
-==========
+# StackCommerce Developer Challenge
 
-Look in the appropriate subfolder for your instructions.
