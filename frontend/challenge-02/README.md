@@ -1,4 +1,4 @@
-# StackSocial Frontend challenge
+# StackSocial Frontend API Challenge
 
 This challenge is designed to test your skill with:
 
