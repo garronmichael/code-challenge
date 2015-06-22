@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <form name="carForm">
+    <input type="text" name="vehicleName" placeholder="Vehicle name">
+    <select name="vehicleType">
+      <option value="car">Car</option> 
+      <option value="motorcycle" selected>Motorcycle</option>
+    </select>
+    <button onclick="return SC.addVehicleToDOM(this.form)">Submit</button>
+  </form>
+  <script src="frontend.js"></script>
+</body>
+</html>
