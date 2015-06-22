@@ -68,6 +68,11 @@ SC.Instances.Motorcycle.constructor = SC.Instances.Motorcycle;
 
 SC.addVehicleToDOM = function(form) {
 
+  // if there is no vehicleName
+  if(!form.vehicleName.value) {
+    // return false and add nothing to DOM
+    return false;
+  }
   // obtain form values 
   var vehicleName = form.vehicleName.value;
   var vehicleTypeIndex = form.vehicleType.selectedIndex;
@@ -95,9 +100,10 @@ SC.addVehicleToDOM = function(form) {
 
   // info will alert vehicle info
   var info = function() {
-    var vehicleWheels = this.parentNode.firstChild.dataset.vehicleWheels;
-    var vehicleSeats =  this.parentNode.firstChild.dataset.vehicleSeat;
-    var vehicleName =  this.parentNode.firstChild.dataset.vehicleName;
+    var data = this.parentNode.firstChild.dataset;
+    var vehicleWheels = data.vehicleWheels;
+    var vehicleSeats =  data.vehicleSeat;
+    var vehicleName =  data.vehicleName;
     alert(vehicleName + ' has ' + vehicleSeats + ' seats and ' + vehicleWheels + ' wheels!');
   };
 

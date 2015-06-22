@@ -1,5 +1,15 @@
 # StackCommerce Frontend JavaScript Challenge
 
+## Instructions
+
+I have completed the coding challenge with two major commits. The first commit is my code solution to the challenege. 
+
+In the second commit, I have added some styling and updated the README.md. This challenge is based on the frontend so 
+
+you only need to open the frontend.html file for the code to run. 
+
+Thanks and have a great day!
+
 ## Goals
 
 This challenge is designed to test your skills with basic JavaScript.
